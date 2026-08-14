@@ -1,0 +1,67 @@
+@import "@fontsource-variable/source-sans-3/wght.css";
+@import "@fontsource-variable/newsreader/wght.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3 Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader Variable", ui-serif, Georgia, serif;
+  --color-amber: #ecad0a;
+  --color-blue: #209dd7;
+  --color-purple: #753991;
+  --color-ink: #1a1814;
+  --color-muted: #6b6560;
+  --color-line: #e4dfd6;
+  --color-paper: #f3f0ea;
+  --color-card: #ffffff;
+  --color-overdue: #9a3412;
+  --color-overdue-bg: #fff1e8;
+  --color-due: #8a6508;
+  --color-due-bg: #fff6d9;
+  --color-ok: #1f6b4a;
+  --color-ok-bg: #e8f4ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: #f3d57a;
+  color: var(--color-ink);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #d4cfc4 transparent;
+}

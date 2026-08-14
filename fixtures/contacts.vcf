@@ -1,0 +1,27 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Nia Okonkwo
+N:Okonkwo;Nia;;;
+EMAIL:nia.okonkwo@example.com
+TEL:+44 20 7946 0400
+ORG:BBC
+TITLE:Producer
+ADR:;;14 Park Row;Leeds;;;United Kingdom
+NOTE:Met at David's birthday
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Priya Shah
+EMAIL:priya.shah@example.com
+TEL:+1 415 555 0000
+ORG:Stripe
+TITLE:Product lead
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Kit Moreau
+EMAIL:kit.moreau@example.com
+ORG:Atelier Moreau
+TITLE:Ceramicist
+ADR:;;;Montreal;;;Canada
+END:VCARD

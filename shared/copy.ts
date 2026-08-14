@@ -1,0 +1,35 @@
+export const EMPTY_STATES = {
+  contact:
+    "Nobody is due or overdue. You are all caught up — enjoy the quiet.",
+  dates: "No birthdays or important dates in the next 30 days.",
+  reminders: "No reminders due or overdue.",
+  activity: "Nothing has been logged yet. Calls, notes and news will appear here.",
+  charts: "Log a few conversations and these charts will start to fill in.",
+};
+
+export const TIMEZONES = [
+  "Africa/Cairo",
+  "Africa/Johannesburg",
+  "Africa/Lagos",
+  "America/Chicago",
+  "America/Denver",
+  "America/Los_Angeles",
+  "America/Mexico_City",
+  "America/New_York",
+  "America/Sao_Paulo",
+  "America/Toronto",
+  "Asia/Dubai",
+  "Asia/Kolkata",
+  "Asia/Singapore",
+  "Asia/Tokyo",
+  "Australia/Sydney",
+  "Europe/Berlin",
+  "Europe/Dublin",
+  "Europe/Lisbon",
+  "Europe/London",
+  "Europe/Madrid",
+  "Europe/Paris",
+  "Europe/Stockholm",
+  "Europe/Warsaw",
+  "Pacific/Auckland",
+];
