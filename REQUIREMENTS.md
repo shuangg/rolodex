@@ -95,6 +95,7 @@ Just enough direction to keep things on track — specific choices are left to t
   Agent's call, as long as the requirements and the success criteria below are met.
 - The app will be running in a VS Code dev container with ports mapped on the host computer; ensure
   the server is configured so that it can be viewed in a browser on the host computer.
+- Use available ports in the range 4400-4499 to avoid conflicts
 
 ## Not in scope (v1)
 
