@@ -43,3 +43,5 @@ pnpm-debug.log*
 .vscode/
 *.swp
 Thumbs.db
+# Scratch space for local validation runs
+.scratch/
