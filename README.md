@@ -1,5 +1,37 @@
 # Rolodex
 
+A private, local-first personal CRM — an address book that reminds you to stay in touch.
+
+## Getting started
+
+Requires Node.js 20+ (uses the built-in `node:sqlite`).
+
+```bash
+npm install
+npm start
+```
+
+Then open **http://localhost:5173** in your browser. On first run the app builds
+itself and seeds a realistic sample dataset, so every screen is alive immediately.
+Everything — people, photos, notes, reminders — is stored locally in a SQLite
+database in `data/`, no accounts or internet required.
+
+### Other commands
+
+- `npm run dev` — development mode with hot reload (Vite on 5173, API on 5174).
+- `npm test` — run the unit test suite.
+- `npm run reset` — wipe the local database and start fresh.
+
+## Usage
+
+- **Today** — who to contact, upcoming dates, reminders, recent activity and charts.
+- **People** — searchable, filterable address book; add, edit, delete and import (CSV/vCard).
+- **Circles** — drag people between Inner / Close / Wider / Distant to set check-in cadence.
+- **Calendar** — birthdays and important dates on a month grid.
+- **Timeline** — everything that's happened, across everyone, newest first.
+
+---
+
 To run this from VS Code:
 
 1. Ctrl+Shift+P (PC) or Cmd+Shift+P (Mac) then "Dev Containers: Reopen in Container"
