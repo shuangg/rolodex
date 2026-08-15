@@ -796,6 +796,10 @@ a:hover {
 
 .rbc-calendar {
   font-family: var(--font);
+  /* react-big-calendar sizes the month grid from its container; without an
+     explicit height every month row collapses and events never show. */
+  height: min(78vh, 760px);
+  min-height: 560px;
 }
 
 .rbc-header {
